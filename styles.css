@@ -1,0 +1,296 @@
+ http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+button::-moz-focus-inner,
+	input[type="reset"]::-moz-focus-inner,
+	input[type="button"]::-moz-focus-inner,
+	input[type="submit"]::-moz-focus-inner,
+	input[type="submit"]::-moz-focus-inner,
+	input[type="file"] > input[type="button"]::-moz-focus-inner {/* */
+	border: none;
+}
+*:focus {
+	outline: none;
+}
+/*end reset*/
+
+/*начало*/
+
+/*общие стили*/
+body{
+	font: normal 16px Arial,sans-serif;
+	color: black;
+}
+#content, footer, header{
+	min-width: 1000px;
+}
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.block_center{
+	width: 980px;
+	margin: 0 auto;
+}
+.next_line{
+	display: block;
+}
+
+.under_h{
+
+}
+.over_h{
+
+}
+/*цветовые решения и оформление элементов*/
+.line_01{
+	width: 900px;
+	height: 1px;
+	background: #aaa;
+	margin: 0 auto;
+}
+.hl_01{
+	background: ;
+	color: ;
+}
+.hl_02{
+	background: ;
+	color: ;
+}
+.hl_03{
+	background: ;
+	color: ;
+}
+.hl_04{
+	background: ;
+	color: ;
+}
+
+
+/*кнопка*/
+.btn{
+	display: block;
+	padding: 20px 0;
+	color: #fff;
+	font: bold 20px 'ProximaNova-Reg', Arial, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	width: 470px;
+	margin: 0 auto;
+	cursor: pointer;
+
+	text-shadow: 1px 1px 1px #d99100;
+
+	-webkit-box-shadow: inset 0px 1px 5px #fff;
+	-moz-box-shadow: inset 0px 1px 5px #fff;
+	box-shadow: inset 0px 1px 5px #fff;
+
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px; 
+	-khtml-border-radius: 25px; 
+	border-radius: 25px;
+
+	background: rgb(254,238,81); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(254,238,81,1) 0%, rgba(255,166,0,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,238,81,1)), color-stop(100%,rgba(255,166,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(254,238,81,1) 0%,rgba(255,166,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(254,238,81,1) 0%,rgba(255,166,0,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(254,238,81,1) 0%,rgba(255,166,0,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(254,238,81,1) 0%,rgba(255,166,0,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feee51', endColorstr='#ffa600',GradientType=0 ); /* IE6-9 */
+}
+.btn:hover{
+		cursor: pointer;
+	background: rgb(239,174,48); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(239,174,48,1) 0%, rgba(254,238,81,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(239,174,48,1)), color-stop(100%,rgba(254,238,81,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(239,174,48,1) 0%,rgba(254,238,81,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(239,174,48,1) 0%,rgba(254,238,81,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(239,174,48,1) 0%,rgba(254,238,81,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(239,174,48,1) 0%,rgba(254,238,81,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efae30', endColorstr='#feee51',GradientType=0 ); /* IE6-9 */
+}
+.btn_send:active,.btn:active{
+	-webkit-box-shadow: inset 0 2px 5px #000;
+	-moz-box-shadow: inset 0 2px 5px #000;
+	box-shadow: inset 0 2px 5px #000;
+}
+
+/*колонки*/
+.two_col{
+	width: 47%;
+	float: left;
+	margin: 0 1.5%;
+	text-align: center;
+}
+.three_col{
+	width: 30%;
+	float: left;
+	margin: 0 1.666666666666667%;
+	text-align: center;
+}
+.four_col{
+	width: 23%;
+	float: left;
+	margin: 0 1%;
+	text-align: center;
+}
+
+/*форма отправки*/
+#inline {
+	display: none;
+	width: 600px;
+	padding: 40px 0;
+}
+label {
+	display: inline-block;
+	width: 160px;
+	text-align: right;
+	margin-right: 12px;
+	margin-bottom: 9px;
+}
+.txt{ 
+	display: inline-block; 
+	color: #363636;
+	width: 420px; 
+	font-family: Arial, Tahoma, sans-serif; 
+	margin-bottom: 10px; 
+	border: 1px solid #d7d7d7; 
+	padding: 5px 9px;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px; 
+	-khtml-border-radius: 10px; 
+	border-radius: 10px;
+	width: 333px;
+}
+.txt:focus, .txtarea:focus {
+	border-style: solid;
+	border-color: #bababa;
+	color: #444;
+}
+input.error, textarea.error {
+	border-color: #973d3d;
+	border-style: solid;
+	background: #f0bebe;
+	color: #a35959; 
+}
+input.error:focus, textarea.error:focus {
+	border-color: #973d3d;
+	color: #a35959; 
+}
+#info{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/*стили для заголовков*/
+h1{
+	font-size: ;
+	font-weight: ;
+	text-decoration: ;
+	color: ;
+}
+h2{
+	font-size: ;
+	font-weight: ;
+	text-decoration: ;
+	color: ;
+}
+h3{
+	font-size: ;
+	font-weight: ;
+	text-decoration: ;
+	color: ;
+}
+h4{
+	font-size: ;
+	font-weight: ;
+	text-decoration: ;
+	color: ;
+}
+
+
+/*styles*/
+/*head*/
+header{
+
+}
+
+
+/*content*/
+/*block1*/
+.bg_content01{
+
+}
+/*block2*/
+.bg_content02{
+
+}
+
+/*block3*/
+.bg_content03{
+
+}
+
+/*block4*/
+.bg_content04{
+
+}
+
+
+/*foot*/
+footer{
+
+}
