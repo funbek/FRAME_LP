@@ -128,18 +128,14 @@ body{
 	width: 470px;
 	margin: 0 auto;
 	cursor: pointer;
-
 	text-shadow: 1px 1px 1px #d99100;
-
 	-webkit-box-shadow: inset 0px 1px 5px #fff;
 	-moz-box-shadow: inset 0px 1px 5px #fff;
 	box-shadow: inset 0px 1px 5px #fff;
-
 	-moz-border-radius: 25px;
 	-webkit-border-radius: 25px; 
 	-khtml-border-radius: 25px; 
 	border-radius: 25px;
-
 	background: rgb(254,238,81); /* Old browsers */
 	background: -moz-linear-gradient(top, rgba(254,238,81,1) 0%, rgba(255,166,0,1) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,238,81,1)), color-stop(100%,rgba(255,166,0,1))); /* Chrome,Safari4+ */
