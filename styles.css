@@ -115,7 +115,6 @@ body{
 	color: ;
 }
 
-
 /*кнопка*/
 .btn{
 	display: block;
@@ -192,23 +191,13 @@ label {
 	display: inline-block;
 	width: 160px;
 	text-align: right;
-	margin-right: 12px;
-	margin-bottom: 9px;
 }
 .txt{ 
 	display: inline-block; 
 	color: #363636;
 	width: 420px; 
-	font-family: Arial, Tahoma, sans-serif; 
-	margin-bottom: 10px; 
-	border: 1px solid #d7d7d7; 
-	padding: 5px 9px;
-	font-size: 1.2em;
-	line-height: 1.4em;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px; 
-	-khtml-border-radius: 10px; 
-	border-radius: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #d7d7d7;
 	width: 333px;
 }
 .txt:focus, .txtarea:focus {
@@ -224,7 +213,7 @@ input.error, textarea.error {
 }
 input.error:focus, textarea.error:focus {
 	border-color: #973d3d;
-	color: #a35959; 
+	color: #a35959;
 }
 #info{
 	text-align: center;
@@ -270,6 +259,7 @@ header{
 .bg_content01{
 
 }
+
 /*block2*/
 .bg_content02{
 
@@ -282,7 +272,7 @@ header{
 
 /*block4*/
 .bg_content04{
-
+	
 }
 
 
